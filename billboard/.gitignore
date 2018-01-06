@@ -2,3 +2,4 @@
 !scrapy.cfg
 billboard/__pycache__
 billboard/spiders/__pycache__
+*.csv
