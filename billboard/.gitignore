@@ -1,0 +1,3 @@
+*.cfg
+billboard/__pycache__
+billboard/spiders/__pycache__
