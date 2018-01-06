@@ -1,16 +1,16 @@
 This project scraps different **_SONG CHARTS_** from the billboard 
 
-1. Clone the project
+1. clone the project
 ```
 git clone https://github.com/yash1th/billboard-songs-chart-scraping.git
 ```
 
-2. Go to the directory that you just created and create a virtual environment (Highly recommended!!)
+2. navigate to the directory that you just created and create a virtual environment (Highly recommended!!)
 ```
 cd billboard-songs-chart-scraping/
 ```
 
-3. Activate the environment
+3. activate the virtual environment
 
 ```
 python3 -m venv .
@@ -34,8 +34,10 @@ scrapy crawl spider_1
 
 7. A csv file will be created with an appropriate file name. Examples are 
 
+```
 * greatest-adult-pop-songs.csv
 * hot-100.csv
+```
 
 **Note:** You can scrap more than one chart at at time. Simply add the urls to the list `start_urls` object in the following file
 ```
